@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Rubik+Iso&display=swap');
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/background.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(43, 43, 43);
+    height: 60px;
+}
+.headerInner{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.logo_of_discord_container{
+    width: max-content;
+    height: min-content;
+    padding-left: 50px;
+}
+.logo_of_discord{
+    width: 50px;
+}
+
+.titlelogo_of_discord_container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.titlelogo_of_discord{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+main{
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 100vh;
+}
+.main_content_container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_card_container{
+    
+}
+.avatar_of_user_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.avatar_of_user{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.title_of_user_container{
+    text-align: center;
+    padding-top: 10px;
+}
+.title_of_user{
+    color: white;
+    font-size: 35px;
+}
+
+.description_of_user_containaer{
+    text-align: center;
+}
+.description_of_user{
+    color: rgb(225, 225, 225);
+    padding-top: 10px;
+    font-size: 20px;
+}
